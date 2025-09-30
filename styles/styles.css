@@ -15,7 +15,6 @@ footer {
   padding: 0.5rem;
 }
 
-
 h1 {
   font-size: 1.5rem;
   color: #ffffff;
@@ -24,12 +23,12 @@ h1 {
   margin: 0;
 }
 
-.div__middle{
-   display: flex;
-   gap:1rem;
-   margin: 1rem 0 1rem 0;
-   flex-direction: row;
-   justify-content: space-between;
+.div__middle {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1rem 0;
+  flex-direction: row;
+  justify-content: space-between;
 }
 aside {
   background-color: #66afaf;
@@ -38,8 +37,18 @@ aside {
   height: 50vh;
 }
 
-article{
+article {
   background-color: #e96379;
   width: 70%;
+  align-content: end;
+}
+
+img {
+  display: inline-block;
+  background-color: #e7cbd0;
+  width: 25%;
+  aspect-ratio: 1/1;
   align-content: center;
+  color: #ffffff;
+  margin: 0.5rem;
 }
