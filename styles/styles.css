@@ -1,0 +1,35 @@
+.wrapper {
+  background-color: #f891a3;
+  width: 80vw;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #82f0f0;
+  align-content: center;
+  width: 90%;
+  margin: 0 auto 0 auto;
+  padding: 0.5rem;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  display: flexbox;
+  margin: 0;
+}
+
+.div__middle{
+   display: flex;
+}
+aside {
+
+  background-color: #66afaf;
+  align-items: center;
+}
